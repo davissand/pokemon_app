@@ -4,7 +4,7 @@ const pokemonList = document.getElementById("pokemon-list");
 async function getPokemonData() {
     try {
         // Hacer una solicitud GET a la PokeAPI para obtener una lista de Pokémon
-        const response = await fetch("https://pokeapi.co/api/v2/pokemon/charmander");
+        const response = await fetch("https://pokeapi.co/api/v2/pokemon/");
         const data = await response.json();
 
         console.log(data);
